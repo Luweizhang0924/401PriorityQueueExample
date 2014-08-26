@@ -31,8 +31,8 @@ public class Student implements Comparable<Student>
      *  @param obj - the specified object.
      *
      *  @return a negative integer, 0, or a positive integer, depending
-     *  on whether this Student object’s grade point average is less than,
-     *  equal to, or greater than obj’s grade point average.
+     *  on whether this Student objectâ€™s grade point average is less than,
+     *  equal to, or greater than objâ€™s grade point average.
      * 
      *  @throws ClassCastException - if the run-time type of obj is not Student.
      *
@@ -55,7 +55,7 @@ public class Student implements Comparable<Student>
      */
     public String toString() 
     {
-        return name + "  " + gpa;
+        return "name: "+name + "    gpa: " + gpa;
     } // method toString
 
 } // class Student
