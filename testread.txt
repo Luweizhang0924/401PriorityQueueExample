@@ -5,3 +5,8 @@ blablablabla
 ************************************************
 ************************************************
 /**********************************************/
+
+
+
+if I use command to merge, the local repo will change first, I should git push so that the git website can show the latest code.
+otherwise the git website first show the latest codes, I should use git pull to update the repo.
